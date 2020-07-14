@@ -42,7 +42,7 @@ The folder structure is:
 
 #### Style Guide
 
-In Style Guides folder you going to find informations about how to apply ours Colors, Icons, Typograph in your application, as well as, how to position the elements on the grid, how to apply features on the elements (primary, disabled, selected, etc...) and how to write messages based in Quanto's recommendations
+In Style Guides folder you going to find informations about how to apply ours Colors, Icons, Typograph in your application, as well as, how to position the elements on the grid and how to apply features on the elements (primary, disabled, selected, etc...)
 
 #### Components
 
