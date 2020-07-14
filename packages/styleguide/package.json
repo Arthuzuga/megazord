@@ -1,0 +1,7 @@
+{
+  "name": "@megazord/styleguide",
+  "version": "1.0.0",
+  "description": "styleguide",
+  "main": "index.js",
+  "license": "MIT"
+}

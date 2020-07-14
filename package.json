@@ -1,0 +1,17 @@
+{
+  "name": "megazord",
+  "version": "1.0.0",
+  "description": "design-system",
+  "main": "index.js",
+  "author": "joao tavares <joao.arthur.tavares@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "site": "cd packages/site && yarn start",
+    "update-lib": "lerna bootstrap"
+  }
+}
