@@ -1,3 +1,7 @@
-const colors = require('./colors')
+import colors from './colors'
+import theme from './theme'
 
-module.exports = colors
+export {
+    colors,
+    theme
+}
