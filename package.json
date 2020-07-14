@@ -12,6 +12,7 @@
   },
   "scripts": {
     "site": "cd packages/site && yarn start",
-    "update-lib": "lerna bootstrap"
+    "update-lib": "lerna bootstrap",
+    "storybook": "cd packages/components && yarn storybook"
   }
 }

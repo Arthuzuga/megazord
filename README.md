@@ -1,7 +1,5 @@
 # Megazord
 
-### A design system by Quanto
-
 ## Table of contents
 
 - [Introduction](#introduction)
