@@ -24,17 +24,12 @@ The folder structure is:
   - Typograph
   - Voice and Ton
 
-* Components
+* Components (Coming soon)
     - Atoms
-      - Buttons
-      - Loader
-      - Modal
-      - Notification Bar
     - Molecules
-      - Text Input
-    - Organisms (Coming soon)
+    - Organisms 
 
-* Pattern Library (best practices) (Coming soon)
+* Pattern Library (Coming soon)
   - Atoms
   - Molecules
   - Organisms
@@ -88,34 +83,8 @@ Here's a quick example that show how to apply a Button on your project:
 4. Replicate the instructions in your file and make sure that you using the style's modes correctly.
 
 ### Customizing styles
+(Coming Soon...)
 
-In case on you want to customize one or more components from Megazord, you can use two ways to apply your style:
-
-1. Using CSS-in-JS with `styled-components` or `@emotion`;
-```javascript
-  import { Button } from '@megazord/components'
-  import styled from '@emotion/styled' // In case you using emotion 
-  
-  const NewButton = styled(Button)`
-    background-color: red;
-    color: white;
-    font-size: 36px;
-  `
-```
-2. Applying custom styles (check if that component is supported by this feature);
-```javascript
-  <TextInput 
-    inputStyle={{
-      heigth: '60px'
-    }}
-    labelStyle={{
-      color: 'white'
-    }}
-    containerStyle={{
-      paddingTop: '16px'
-    }}
-  />
-```
 
 ## Contributing
 (Coming Soon...)
