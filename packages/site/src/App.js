@@ -1,13 +1,14 @@
 import React from 'react'
 import Component from '@megazord/components'
-import {colors, theme} from "@megazord/styleguide"
+import {colors, theme, typograph} from "@megazord/styleguide"
 
 const App = () => {
     const  {blue, red, orange, purple} = colors
     const  {palette: { primary }} = theme
+    const { fontFamily } = typograph
 
     return (
-        <div style={{backgroundColor: primary.main, color: primary.contrastText}}>
+        <div style={{backgroundColor: primary.main, color: primary.contrastText, fontFamily: fontFamily}}>
             {Component}
             {
                 red.light.reverse().map(re => (
